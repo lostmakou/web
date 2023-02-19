@@ -1,0 +1,48 @@
+.top-panel {
+    background-color: rgb(49, 49, 73);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.bottom-panel {
+    background-color: rgb(49, 49, 73);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.left-panel {
+    position:fixed;
+    top: 15px;
+    left: 0;
+    width: 150px;
+    height: 100%;
+    background-color: rgb(49, 49, 73);
+}
+
+.main {
+    background-color: rgb(42, 42, 63);
+    /* position: fixed; */
+    /* top: 30px;
+    left: 115px;
+    right: 15px;
+    bottom: 30px; */
+    margin-left: 155px;
+    margin-top: 33px;
+    margin-right: 0px;
+    margin-bottom: -36px;
+    height: 50%;
+    width: 85%;
+}
+
+a {
+    font-size: 25px;
+}
+
+body {
+    background-color: rgb(25, 25, 37);
+}
