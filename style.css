@@ -126,6 +126,43 @@ a.link{
     font-weight:bold;
 }   
 
+
+.playlist {
+    display: block;
+    background-color: rgb(226, 226, 228);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding: 20px;
+}
+
+
+
+/* #cover {
+    width: 100px;
+} */
+
+#song {
+    width: 200px;
+}
+
+#singer {
+    width: 200px;
+}
+
+#time {
+    width: 100px;
+}
+
+/* #flag {
+    align-tracks: center;
+} */
+#euroButton:checked~#eurovision {
+    display: none;
+}
+
 /* img {
     display: block;
     max-width: 100%;
