@@ -67,7 +67,7 @@ a.link{
 }
 
 .article {
-    /* position: relative; */
+    position: relative;
     display: block;
     box-sizing: border-box;
     margin-left: auto;
@@ -146,9 +146,11 @@ a.link{
     color: rgb(233, 227, 249); 
 }
 .data{
-    display: flex;
+
+    bottom: 0px;
+    position: absolute;
     align-items: flex-end;
-    margin-top: 30px;
+    margin-top: 50%;
     margin-left: auto;
     margin-right: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
